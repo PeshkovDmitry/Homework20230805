@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06734e97-318b-4703-b90d-58aa5c587545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/CalculatorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/CalculatorPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/CalculatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task1/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="06734e97-318b-4703-b90d-58aa5c587545" name="Changes" comment="Выполнена обязательная часть домашнего задания">
+      <change afterPath="$PROJECT_DIR$/src/Task1/CheckingCalculatorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1/CheckingCalculatorView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1690698949668</updated>
     </task>
+    <task id="LOCAL-00001" summary="Выполнена обязательная часть домашнего задания">
+      <created>1690725897655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690725897655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Выполнена обязательная часть домашнего задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнена обязательная часть домашнего задания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
