@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06734e97-318b-4703-b90d-58aa5c587545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task2/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/UserManagementApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/UserPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/UserView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/View.java" afterDir="false" />
+    <list default="true" id="06734e97-318b-4703-b90d-58aa5c587545" name="Changes" comment="Калькулятор дополнен генерацией исключений при попытке деления на ноль или вводе операций, отличных от базовых (+,-,/,*)">
+      <change afterPath="$PROJECT_DIR$/src/Task2/TextData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_07_2023_19_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_07_2023_19_49__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/UserManagementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2/UserManagementApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/UserPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2/UserPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +22,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -47,9 +52,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Дима/IdeaProjects/Homework20230729/src/Main.java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +70,29 @@
       <option name="presentableId" value="Default" />
       <updated>1690698949668</updated>
     </task>
+    <task id="LOCAL-00001" summary="Выполнена обязательная часть домашнего задания">
+      <created>1690725897655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690725897655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Выполнена обязательная часть домашнего задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнена обязательная часть домашнего задания" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task1/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

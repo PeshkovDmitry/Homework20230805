@@ -2,17 +2,7 @@ package Task2;
 
 public interface View {
 
-    void showRegistrationForm();
-
-    void showLoginForm();
-
-    void showWorkForm();
-
-    void showGreeting(String name);
-
-    void showDenialOfAccess();
-
-    void showStartForm();
+    void showMessage(String text);
 
     String getUserData(String text);
 
