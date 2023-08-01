@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="06734e97-318b-4703-b90d-58aa5c587545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task1/CheckingCalculatorPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/UserManagementApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/UserPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +24,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2THTL1lI2t7HOdJ0y75BFJTcF7P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
