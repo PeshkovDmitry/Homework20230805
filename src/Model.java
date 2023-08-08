@@ -1,5 +1,3 @@
-package Task1;
-
 public interface Model {
 
     void add(double number1, double number2);

@@ -1,5 +1,3 @@
-package Task1;
-
 public class CheckingCalculatorModel extends CalculatorModel {
 
     @Override

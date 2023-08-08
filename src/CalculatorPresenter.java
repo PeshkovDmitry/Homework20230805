@@ -1,5 +1,3 @@
-package Task1;
-
 public class CalculatorPresenter implements Presenter{
     private Model model;
     private View view;

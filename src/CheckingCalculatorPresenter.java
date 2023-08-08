@@ -1,5 +1,3 @@
-package Task1;
-
 public class CheckingCalculatorPresenter extends CalculatorPresenter {
     public CheckingCalculatorPresenter(Model model, View view) {
         super(model, view);
