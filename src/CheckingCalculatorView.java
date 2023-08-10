@@ -7,14 +7,17 @@ public class CheckingCalculatorView extends CalculatorView {
     }
 
     @Override
-    public String getUserOperation() {
-        String op =  super.getUserOperation();
-        if (op.matches("\\/|\\*|\\+|-")) {
-            return op;
+    public String getUserInput(String message) {
+        String op =  super.getUserInput(message);
+        if (message.equals(Messages.INPUT_OPERATION)) {
+            if (op.matches("\\/|\\*|\\+|-")) {
+                return op;
+            }
+            else {
+                throw new IllegalArgumentException("Операция должна быть +, -, / или *!");
+            }
         }
-        else {
-            throw new IllegalArgumentException("Операция должна быть +, -, / или *!");
-        }
+        return op;
     }
 
 

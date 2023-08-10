@@ -9,9 +9,9 @@ public class CalculatorPresenter implements Presenter{
 
     @Override
     public void onButtonClicked() {
-        double number1 = view.getUserValue();
-        double number2 = view.getUserValue();
-        String operation = view.getUserOperation();
+        Complex number1 = new ComplexValue(view.getUserInput(Messages.INPUT_FIRST_VALUE));
+        Complex number2 = new ComplexValue(view.getUserInput(Messages.INPUT_SECOND_VALUE));
+        String operation = view.getUserInput(Messages.INPUT_OPERATION);
         switch (operation) {
             case "+":
                 model.add(number1, number2);
@@ -26,7 +26,8 @@ public class CalculatorPresenter implements Presenter{
                 model.div(number1, number2);
                 break;
         }
-        double result = model.getResult();
+        Complex result = model.getResult();
+        CalculatorLogger.getInstance().log("(" + number1 + ")" + operation + "(" + number2 + ") = " + result);
         view.displayResult(result);
     }
 

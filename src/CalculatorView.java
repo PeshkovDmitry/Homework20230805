@@ -8,19 +8,12 @@ public class CalculatorView implements View {
         this.scanner = scanner;
     }
 
-    public void displayResult(double result) {
-        System.out.printf("Результат: %.3f\n", result);
+    public void displayResult(Complex result) {
+        System.out.println(result);
     }
 
-    public double getUserValue() {
-        System.out.print("Введите число: ");
-        return scanner.nextDouble();
-    }
-
-    public String getUserOperation() {
-        System.out.print("Введите операцию: ");
+    public String getUserInput(String message) {
+        System.out.print(message);
         return scanner.next();
     }
-
-
 }

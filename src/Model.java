@@ -1,12 +1,12 @@
 public interface Model {
 
-    void add(double number1, double number2);
+    void add(Complex number1, Complex number2);
 
-    void sub(double number1, double number2);
+    void sub(Complex number1, Complex number2);
 
-    void mult(double number1, double number2);
+    void mult(Complex number1, Complex number2);
 
-    void div(double number1, double number2);
+    void div(Complex number1, Complex number2);
 
-    double getResult();
+    Complex getResult();
 }

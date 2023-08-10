@@ -1,9 +1,7 @@
 public interface View {
 
-    void displayResult(double result);
+    void displayResult(Complex result);
 
-    double getUserValue();
-
-    String getUserOperation();
+    String getUserInput(String message);
 
 }
